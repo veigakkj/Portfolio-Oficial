@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #eee;
+    background: #312e2e;
+    border-radius: 5px;
+} 
+.button:hover{
+    cursor: pointer;
+    background: #214357;
+}
+
+
+.headline{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+/* navbar */
+#navbar {
+    position: fixed;
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color: #eee;
+    height: 80px;
+    
+    
+}
+
+#navbar-container{
+    width: 80%;
+    height: 10%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    
+}
+
+
+
+#navbar-items{
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#navbar-items li{
+    padding: 20px;
+}
+
+#navbar-items li:hover{
+    color: #136bee;
+    transition: color 0.3s ease;
+}
+
+/*inicio*/
+
+#inicio{
+   display: flex;
+   width: 100%;
+   height: 100vh;
+   color: #eee;
+   font-family: 'Roboto', sans-serif;
+   background-size: 100%; 
+   justify-content: center;
+   align-items:center;
+   background: url(/img/backgroundportfolio1.jpg) no-repeat center/cover;
+
+}
+#inicio-container .text-1{
+    font-size: 27px;
+    
+
+}
+#inicio-container .text-2{
+    font-size: 55px;
+    font-weight: 500;
+    margin-left: 2px;
+  
+}#inicio-container .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+
+
+}
+#inicio-container .text-3 span{
+    color: #136bee;
+    font-weight: 500;
+}
+
+#inicio-container a{
+    text-decoration: none;
+}
+
+/*conhecimento*/
+#conhecimentos{
+    width: 100%;
+    background:#ffffff;
+    color: #000;
+    padding: 50px;
+    
+}
+#conhecimento-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding:55px;
+     
+}
+
+.conhecimento{
+    display: inline-block;
+    width: 23%;
+    
+}
+/*linguagens prog*/
+#front-end{
+    width: 100%;
+    background: #051e2c;
+    color: #eee;
+    padding: 50px;
+}
+
+#linguagem-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 23px;
+}
+
+.linguagem-conhecimento{
+    display: flex;
+    flex-direction: column;
+    background: #312e2e;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.linguagem-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*caracteristicas*/
+
+#caracteristicas{
+    width: 100%;
+    padding: 50px;
+}
+
+.caract-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+#icones-carac{
+    width: 600px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.icone-c{
+    display: flex;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 22px;
+    text-align: center;
+    
+}
+/*contato*/
+#projetos{
+    width: 100%;
+    padding: 50px;
+    background: #051e2c;
+    color: #eee;
+}
+
+.projeto-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+#items{
+    width: 600px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.item{
+    display: flex;
+    padding: 20px;
+    margin: 15px 0;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: dashed;
+    
+}
+
+.item a {
+    text-decoration-color: #136bee;
+    color: #136bee;
+}
+/*historicos*/
+#historicos{
+    width: 100%;
+    padding: 50px;
+   
+}
+
+.historico-img{
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    background: #051e2c;
+    color: #eee;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+
+}
+.historicos-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.historico-img .ds-img{
+   border-radius: 50%;
+   margin: 20px;
+}
+
+#footer{
+    text-align: center;
+  background: #051e2c;
+  color: #eee;
+  padding: 40px;
+
+}
