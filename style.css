@@ -170,16 +170,13 @@ li a{
 #caracteristicas{
     width: 100%;
     padding: 50px;
-}
-
-.caract-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
-    
+    flex-direction: column;
 }
+
+
 
 #icones-carac{
     width: 600px;
@@ -201,6 +198,13 @@ li a{
     padding: 50px;
     background: #051e2c;
     color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
 }
 
 .projeto-container{
@@ -216,6 +220,7 @@ li a{
     width: 600px;
     font-size: 32px;
     text-align: center;
+    list-style-type: none;
 }
 
 .item{
