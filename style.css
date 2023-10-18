@@ -91,7 +91,7 @@ li a{
    background-size: 100%; 
    justify-content: center;
    align-items:center;
-   background: url(/img/backgroundportfolio1.jpg) no-repeat center/cover;
+   background: url(img/backgroundportfolio1.jpg) no-repeat center/cover;
 
 }
 #inicio-container .text-1{
